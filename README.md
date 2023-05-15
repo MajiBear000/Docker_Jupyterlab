@@ -1,4 +1,5 @@
 # Docker_Jupyterlab
+Dockerfile 参数参考 [https://jiajially.gitbooks.io/dockerguide/content/chapter_fastlearn/dockerfile_details.html](link).
 ## cd 到Dockerfile 的根目录. build image
 ```
 docker build -t jupyterlab .
