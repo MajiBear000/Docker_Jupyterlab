@@ -30,3 +30,9 @@ docker exec -it jupyter-lab /bin/bash
 
 ## 修改jupyter notebook密码（亡羊补牢）
 在容器中，执行```jupyter notebook password```修改密码。
+
+退出并重启容器
+```
+exit
+docker restart YourJupyterContainer
+```
