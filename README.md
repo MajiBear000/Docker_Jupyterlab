@@ -24,7 +24,9 @@ docker exec -it jupyter-lab /bin/bash
 使用```top```指令查看cpu占用，占用率很高并且不占内存的极为病毒程序。记录下PID，使用```ls -l /proc/PID/exe```找到病毒路径。（该路径为在容器中的路径）
 
 进入容器，根据刚刚的路径删除所有病毒文件。
-```docker exec -it YourJupyterContainer /bin/bash```
+```
+docker exec -it YourJupyterContainer /bin/bash
+```
 
 使用```ls -a```可查看隐藏文件。
 
